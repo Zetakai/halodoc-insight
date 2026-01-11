@@ -26,9 +26,6 @@ Ada dua tren yang **mencolok banget** dari data mingguan ini. Coba cek visualisa
 ### Visualisasi Tren Data (Dummy)
 
 #### 1. Lonjakan Order Obat Tidur (Malam Hari)
-### Visualisasi Tren Data (Dummy)
-
-#### 1. Lonjakan Order Obat Tidur (Malam Hari)
 ```mermaid
 xychart-beta
     title "Penjualan Sedares per Jam (Average/Week)"
