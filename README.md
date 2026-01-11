@@ -1,6 +1,6 @@
 # Deep Dive: Tren Penjualan "Toko Kesehatan" Halodoc 💊
 
-Halo tim! Berikut hasil bedah data kita hari ini. Kita coba lihat apa yang sebenarnya terjadi di balik angka-angka penjualan obat kita.
+Halo semua! Berikut hasil bedah data dari saya. Kita coba lihat apa yang sebenarnya terjadi di balik angka-angka penjualan obat di Halodoc.
 
 ## 1. Aktivitas Bisnis (What's Happening?)
 User nggak cuma pakai Halodoc buat chat dokter, tapi makin rajin belanja di **Toko Kesehatan**. Kita fokus pantau kategori yang "urgent" dan sering dicari: obat tidur, kontrasepsi, sama obat flu harian.
