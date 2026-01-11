@@ -26,10 +26,13 @@ Ada dua tren yang **mencolok banget** dari data mingguan ini. Coba cek visualisa
 ### Visualisasi Tren Data (Dummy)
 
 #### 1. Lonjakan Order Obat Tidur (Malam Hari)
+### Visualisasi Tren Data (Dummy)
+
+#### 1. Lonjakan Order Obat Tidur (Malam Hari)
 ```mermaid
 xychart-beta
     title "Penjualan Sedares per Jam (Average/Week)"
-    x-axis [20:00, 21:00, 22:00, 23:00, 00:00, 01:00, 02:00, 03:00]
+    x-axis ["20:00", "21:00", "22:00", "23:00", "00:00", "01:00", "02:00", "03:00"]
     y-axis "Order Qty" 0 --> 50
     bar [5, 12, 35, 42, 48, 30, 15, 5]
 ```
@@ -38,9 +41,18 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Penjualan Postinor: Weekday vs Weekend"
-    x-axis [Senin, Selasa, Rabu, Kamis, Jumat, Sabtu, Minggu]
+    x-axis ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
     y-axis "Order Qty" 0 --> 100
     line [10, 12, 10, 15, 20, 85, 92]
+```
+
+#### 3. Alur Logika (The Why)
+```mermaid
+graph LR
+    A[Jam 22:00 - 02:00] -->|Lonjakan Order| B(Obat Tidur / Sedares)
+    C[Weekend Pagi 06:00 - 10:00] -->|Lonjakan Order| D(Kontrasepsi / Postinor)
+    style B fill:#ff9999,stroke:#333,stroke-width:2px
+    style D fill:#99ccff,stroke:#333,stroke-width:2px
 ```
 
 *   **Tim Insomnia:** Penjualan obat tidur selalu nge-gas pas tengah malam. Orang susah tidur, langsung buka aplikasi.
